@@ -56,7 +56,7 @@ const PresentationalSelect = styled.div`
   color: ${COLORS.gray700};
   padding: 12px 16px;
   padding-right: 52px;
-  font-size: (16/16) rem;
+  font-size: ${16 / 16}rem;
   font-family: "Roboto", sans-serif;
 
   ${NativeSelect}:focus + & {
